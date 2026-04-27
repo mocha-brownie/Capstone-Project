@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     // Ensure your Jenkins global tools match these names, or remove this block if Maven/Java are configured in your system PATH environment variables
-    tools {
-        maven 'Maven3' 
-        jdk 'JDK17'    
-    }
+    // tools {
+    //     maven 'Maven3' 
+    //     jdk 'JDK17'    
+    // }
 
     stages {
         stage('Checkout') {
