@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.983" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Selenium projects\AllInOneProject\target\test-classes;D:\Selenium projects\AllInOneProject\target\classes;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Amey\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Amey\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Amey\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amey\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amey\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Amey\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Amey\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Amey\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Amey\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Amey\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Amey\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Amey\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Amey\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Amey\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amey\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Amey\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Amey\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Amey\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amey\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Amey\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Amey\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Amey\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Amey\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Amey\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Amey\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\Amey\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\Amey\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\Amey\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Amey\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Amey\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Amey\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Amey\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Amey\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Amey\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Amey\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Amey\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Amey\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Amey\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Amey\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Amey\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\Amey\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Amey\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\Amey\AppData\Local\Temp\surefire13438019693934306856\surefirebooter-20260427112554116_3.jar C:\Users\Amey\AppData\Local\Temp\surefire13438019693934306856 2026-04-27T11-25-53_863-jvmRun1 surefire-20260427112554116_1tmp surefire_0-20260427112554116_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Selenium projects\AllInOneProject\target\test-classes;D:\Selenium projects\AllInOneProject\target\classes;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Amey\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Amey\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Amey\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amey\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amey\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Amey\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Amey\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Amey\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Amey\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Amey\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Amey\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Amey\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Amey\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Amey\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Amey\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Amey\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amey\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Amey\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Amey\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Amey\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amey\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Amey\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Amey\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Amey\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Amey\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Amey\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Amey\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\Amey\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\Amey\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Amey\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\Amey\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Amey\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Amey\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Amey\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Amey\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Amey\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Amey\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Amey\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Amey\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Amey\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Amey\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Amey\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Amey\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Amey\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\Amey\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Amey\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Amey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Selenium projects\AllInOneProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Amey\AppData\Local\Temp\surefire13438019693934306856\surefirebooter-20260427112554116_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="Amey"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Amey\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\Amey\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="D:\Selenium projects\AllInOneProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Amey\anaconda3\condabin;c:\Users\Amey\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Amey\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Amey\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\nodejs\;C:\Program Files\MATLAB\R2024b\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.12\bin;C:\Users\Amey\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;C:\Users\Amey\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Amey\AppData\Local\Programs\Python\Python313\;C:\Users\Amey\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Amey\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Amey\AppData\Local\GitHubDesktop\bin;;C:\intelFPGA\18.1\modelsim_ase\win32aloem;C:\Users\Amey\AppData\Roaming\npm;C:\Users\Amey\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Amey\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;c:\Users\Amey\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login with user Amey&quot;, &quot;DemoQA Login&quot;](1)" classname="runners.TestRunner" time="20.22">
+    <system-out><![CDATA[Feature file generated successfully!
+Feature file generated successfully!
+
+Scenario: Login with user Amey                                           &amp#27;[90m# src/test/resources/features/generatedLogin.feature:3&amp#27;[0m
+--- API CREATE USER ---
+Status: 201
+Body: {"userID":"7348ba33-35d8-4cfc-b61d-9d175a331899","username":"Amey","books":[]}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser uses API to  enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Amey"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nitns$344"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.createUser(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Amey"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nitns$344"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                                             &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlogin result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"success"&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.login_result_should_be(java.lang.String)&amp#27;[0m
+--- API DELETE USER DEBUG ---
+UserID to delete: 7348ba33-35d8-4cfc-b61d-9d175a331899
+Fresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkFtZXkiLCJwYXNzd29yZCI6Ik5pdG5zJDM0NCIsImlhdCI6MTc3NzI2OTM4M30.EbmLW6Sg1ntwQZR5otqzz0_NCWUy9KTnPn2plmPpi-M
+Delete Response Status: 204
+Delete Response Body: 
+-----------------------------
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI delete the user account using API&amp#27;[0m                               &amp#27;[90m# stepdefinitions.ApiSteps.deleteUser()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Apr 27, 2026 11:26:03 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with user Arjun&quot;, &quot;DemoQA Login&quot;](2)" classname="runners.TestRunner" time="11.149">
+    <system-out><![CDATA[
+Scenario: Login with user Arjun                                           &amp#27;[90m# src/test/resources/features/generatedLogin.feature:11&amp#27;[0m
+--- API CREATE USER ---
+Status: 201
+Body: {"userID":"7e36c16e-f19d-447b-96e8-1ce586fb3a61","username":"Arjun","books":[]}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser uses API to  enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arjun"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Korde#123"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.createUser(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                             &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arjun"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Korde#123"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlogin result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"success"&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.login_result_should_be(java.lang.String)&amp#27;[0m
+--- API DELETE USER DEBUG ---
+UserID to delete: 7e36c16e-f19d-447b-96e8-1ce586fb3a61
+Fresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkFyanVuIiwicGFzc3dvcmQiOiJLb3JkZSMxMjMiLCJpYXQiOjE3NzcyNjkzOTR9.bMvG95H1jAGyZs-K-KHrvKovrO81e5QUBtlF5ynSXbk
+Delete Response Status: 204
+Delete Response Body: 
+-----------------------------
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI delete the user account using API&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ApiSteps.deleteUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with user Narendra&quot;, &quot;DemoQA Login&quot;](3)" classname="runners.TestRunner" time="11.571">
+    <system-out><![CDATA[
+Scenario: Login with user Narendra                                          &amp#27;[90m# src/test/resources/features/generatedLogin.feature:19&amp#27;[0m
+--- API CREATE USER ---
+Status: 201
+Body: {"userID":"ceb8b627-3663-4c82-ac0e-e674f88c4fe9","username":"Narendra","books":[]}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser uses API to  enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Narendra"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Modi&234"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.createUser(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Narendra"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Modi&234"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                                                &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlogin result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"success"&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.login_result_should_be(java.lang.String)&amp#27;[0m
+--- API DELETE USER DEBUG ---
+UserID to delete: ceb8b627-3663-4c82-ac0e-e674f88c4fe9
+Fresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Ik5hcmVuZHJhIiwicGFzc3dvcmQiOiJNb2RpJjIzNCIsImlhdCI6MTc3NzI2OTQwNn0.dww8VWi0ES9oPRkG1Puf3_yXc17JOLVc-zzghkxh2eU
+Delete Response Status: 204
+Delete Response Body: 
+-----------------------------
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI delete the user account using API&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.ApiSteps.deleteUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with user Rahul&quot;, &quot;DemoQA Login&quot;](4)" classname="runners.TestRunner" time="11.829">
+    <system-out><![CDATA[
+Scenario: Login with user Rahul                                            &amp#27;[90m# src/test/resources/features/generatedLogin.feature:27&amp#27;[0m
+--- API CREATE USER ---
+Status: 201
+Body: {"userID":"aeace01d-e3b6-4a60-8d82-8700ba0c0995","username":"Rahul","books":[]}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser uses API to  enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Rahul"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Gandhi#123"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.createUser(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Rahul"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Gandhi#123"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlogin result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"success"&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.login_result_should_be(java.lang.String)&amp#27;[0m
+--- API DELETE USER DEBUG ---
+UserID to delete: aeace01d-e3b6-4a60-8d82-8700ba0c0995
+Fresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlJhaHVsIiwicGFzc3dvcmQiOiJHYW5kaGkjMTIzIiwiaWF0IjoxNzc3MjY5NDE4fQ.cuIeQ3KO2pwQnrLcbD96KNwFz9mmQghKFJvnNC48Dys
+Delete Response Status: 204
+Delete Response Body: 
+-----------------------------
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI delete the user account using API&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.ApiSteps.deleteUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with user DattuBhau&quot;, &quot;DemoQA Login&quot;](5)" classname="runners.TestRunner" time="11.296">
+    <system-out><![CDATA[
+Scenario: Login with user DattuBhau                                           &amp#27;[90m# src/test/resources/features/generatedLogin.feature:35&amp#27;[0m
+--- API CREATE USER ---
+Status: 201
+Body: {"userID":"8e9effbd-a096-449d-adb7-d1cd490d594d","username":"DattuBhau","books":[]}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser uses API to  enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"DattuBhau"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"YcceC#123"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.createUser(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"DattuBhau"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"YcceC#123"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlogin result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"success"&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.login_result_should_be(java.lang.String)&amp#27;[0m
+--- API DELETE USER DEBUG ---
+UserID to delete: 8e9effbd-a096-449d-adb7-d1cd490d594d
+Fresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkRhdHR1QmhhdSIsInBhc3N3b3JkIjoiWWNjZUMjMTIzIiwiaWF0IjoxNzc3MjY5NDI5fQ.YNIovo5WuIuK2Yk6Z1RCoL80cfLZrSv1CF_NuBfO6pg
+Delete Response Status: 204
+Delete Response Body: 
+-----------------------------
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI delete the user account using API&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.ApiSteps.deleteUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with user Pepa&quot;, &quot;DemoQA Login&quot;](6)" classname="runners.TestRunner" time="10.23">
+    <system-out><![CDATA[
+Scenario: Login with user Pepa                                           &amp#27;[90m# src/test/resources/features/generatedLogin.feature:43&amp#27;[0m
+--- API CREATE USER ---
+Status: 201
+Body: {"userID":"005d480e-1c6b-411b-bd40-f8e99944e11c","username":"Pepa","books":[]}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser uses API to  enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pepa"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Piggy%345"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.createUser(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pepa"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Piggy%345"&amp#27;[0m              &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.enter_credentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks on login button&amp#27;[0m                                             &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mlogin result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"success"&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ExcelWithAllTestCases.login_result_should_be(java.lang.String)&amp#27;[0m
+--- API DELETE USER DEBUG ---
+UserID to delete: 005d480e-1c6b-411b-bd40-f8e99944e11c
+Fresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlBlcGEiLCJwYXNzd29yZCI6IlBpZ2d5JTM0NSIsImlhdCI6MTc3NzI2OTQ0MH0.53kptUSLhZ7OQw61A30h3GzBnpqQnVHBwgAMO191Cxw
+Delete Response Status: 204
+Delete Response Body: 
+-----------------------------
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI delete the user account using API&amp#27;[0m                               &amp#27;[90m# stepdefinitions.ApiSteps.deleteUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Run JMeter performance test&quot;, &quot;Performance Testing&quot;](7)" classname="runners.TestRunner" time="9.308">
+    <system-out><![CDATA[
+Scenario: Run JMeter performance test        &amp#27;[90m# src/test/resources/features/performance.feature:3&amp#27;[0m
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using src/test/resources/jmeter/testplan.jmx
+Starting standalone test @ 2026 Apr 27 11:27:24 IST (1777269444867)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     10 in 00:00:02 =    6.1/s Avg:  1089 Min:   684 Max:  1343 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Apr 27 11:27:26 IST (1777269446721)
+... end of run
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI execute JMeter test&amp#27;[0m                &amp#27;[90m# stepdefinitions.JMeterSteps.runTest()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mresponse time should be below &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m&amp#27;[32m ms&amp#27;[0m &amp#27;[90m# stepdefinitions.JMeterSteps.validatePerformance(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Text data with fullName Amey Kamde&quot;, &quot;Text Box Verification&quot;](8)" classname="runners.TestRunner" time="7.281">
+    <system-out><![CDATA[
+Scenario: Text data with fullName Amey Kamde                               &amp#27;[90m# src/test/resources/features/textBoxFeatureFile.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on text box page&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.TextBoxSteps.userIsOnTextBoxPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters fullname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Amey Kamde"&amp#27;[0m&amp#27;[32m and email &amp#27;[0m&amp#27;[32m&amp#27;[1m"ameykamde@gmail.com"&amp#27;[0m   &amp#27;[90m# stepdefinitions.TextBoxSteps.fillUserNameAndEmail(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser also enters current Address &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ycce"&amp#27;[0m&amp#27;[32m and permanent address &amp#27;[0m&amp#27;[32m&amp#27;[1m"YCCE"&amp#27;[0m &amp#27;[90m# stepdefinitions.TextBoxSteps.fillAddresses(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on submit button&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.TextBoxSteps.clickOnSubmitBtn()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtext data result should be verified&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.TextBoxSteps.textDataShouldAppear()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

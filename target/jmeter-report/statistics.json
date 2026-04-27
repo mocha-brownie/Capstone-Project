@@ -1,0 +1,34 @@
+{
+  "GET DemoQA Books API" : {
+    "transaction" : "GET DemoQA Books API",
+    "sampleCount" : 10,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1089.7,
+    "medianResTime" : 1130.0,
+    "minResTime" : 684.0,
+    "maxResTime" : 1343.0,
+    "pct1ResTime" : 1343.0,
+    "pct2ResTime" : 1343.0,
+    "pct3ResTime" : 1343.0,
+    "throughput" : 7.44047619047619,
+    "receivedKBytesPerSec" : 34.60112072172619,
+    "sentKBytesPerSec" : 1.140776134672619
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 10,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1089.7,
+    "medianResTime" : 1130.0,
+    "minResTime" : 684.0,
+    "maxResTime" : 1343.0,
+    "pct1ResTime" : 1343.0,
+    "pct2ResTime" : 1343.0,
+    "pct3ResTime" : 1343.0,
+    "throughput" : 7.44047619047619,
+    "receivedKBytesPerSec" : 34.60112072172619,
+    "sentKBytesPerSec" : 1.140776134672619
+  }
+}
