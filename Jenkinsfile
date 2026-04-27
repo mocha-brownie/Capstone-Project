@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace this URL with the actual GitHub repository link once you upload the project
-                git branch: 'main', url: 'https://github.com/your-username/AllInOneProject.git'
+                git branch: 'main', url: 'https://github.com/mocha-brownie/Capstone-Project.git'
             }
         }
 
